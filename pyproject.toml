@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shotscope-connector"
+version = "0.2.0"
+description = "Standalone Shot Scope dashboard importer and local Google Drive folder publisher"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.32,<3", "python-dotenv>=1.0,<2", "keyring>=25,<26; platform_system == 'Windows'"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
+[project.scripts]
+shotscope = "shotscope_connector.connector:main"
+
+[tool.setuptools.packages.find]
+include = ["shotscope_connector*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,13 @@
+{
+  ".env.example": "5d3fb62964087455dd2a7512844bb242a753b42009c3b9ed0a155d01eac112f3",
+  ".gitignore": "1187fb45fdb567fd69b841c9064f94c823fe093975e01fcc913ab372ce43fa01",
+  "README.md": "06fd2a6067017131d4aa372488312431a744917fa8ea87d49dec1ec00a92208a",
+  "THIRD_PARTY_NOTICES.txt": "1e6643e7bdbddd7d2dad659319316207bfa1996e68e0ebaf8f3c877913329a79",
+  "docs/TEST_RESULTS.txt": "c7d803dfe30eca23fae7cba8384650696b5d6b85eab424d0d9e25fce83a93020",
+  "pyproject.toml": "5d2448e79067f6867093282089af7823af52e3553089e2ed292d5e60e07a48d3",
+  "shotscope_connector/__init__.py": "5befb0dbc764dccca160e3e5d2280b48dd85575ea121cccd2d112fd754310996",
+  "shotscope_connector/__main__.py": "a9ab743cc7d72a5f620b7009f731bdc433cf248dd284962c5bba3151fb8c6bac",
+  "shotscope_connector/connector.py": "b7228ff331451005b0985568ded8766f8e5a99b70b13572d753c748c69524a0a",
+  "tests/test_shotscope.py": "b7bf3d796fd3d3532b6e71bd7c22976692f89bfec778ae845e8120454ecc5282",
+  "tests/test_standalone.py": "5844ab8a11c86fad64387e3743d5fed8e96b053800dc47ff9a5756615ca9fdef"
+}

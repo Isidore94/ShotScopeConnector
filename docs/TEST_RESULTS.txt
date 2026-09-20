@@ -1,0 +1,14 @@
+Standalone ShotScopeConnector 0.2.0
+Validation rerun before repository publication; not on the user Windows mini PC.
+Python: 3.13.5
+Platform: Linux
+
+python -m pytest -q: 42 passed
+python -m compileall -q shotscope_connector: passed
+python -m shotscope_connector --help: passed
+python -m pip wheel --no-deps --no-build-isolation --no-index: passed
+
+Network calls in tests are mocked; all round data is synthetic.
+Live authentication, Apple Watch payloads, Windows Credential Manager,
+Task Scheduler, mini-PC installation, and Google Drive cloud synchronization
+have NOT been validated. Repository publication is not mini-PC deployment.
